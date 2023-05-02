@@ -1,0 +1,53 @@
+
+
+#main{
+  display: grid;
+  gap: 1.5;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+#p1{
+  max-width: 30ch;
+  margin:auto;
+}
+
+
+
+#container{
+width: 350px;
+border: 1px solid white;
+border-radius: 20px;
+box-shadow: 3px 6px 10px 4px ;
+height: 500px;
+text-align: center;
+padding-top: 50px;
+
+}
+
+#btn1{
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 200px;
+  cursor: pointer;
+}
+
+#btn1:hover{
+  background: grey;
+}
+
+#p2{
+  font-style: italic;
+}
+
+
+
+#img{
+  width: 300px;
+}
+
